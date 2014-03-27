@@ -1,0 +1,7 @@
+To compile/run
+
+g++ -c game-jam.cpp -ISFML-1.6/include
+g++ -o gj game-jam.o -LSFML-1.6/lib -lsfml-window -lsfml-system -lsfml-graphics'
+./gj
+
+
